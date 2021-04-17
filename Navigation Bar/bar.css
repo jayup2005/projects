@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,body{
+
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+
+    width: 100%;
+    height: 70px;
+    margin: 0 auto;
+
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+nav{
+
+    width: 50%;
+    height: 100%;
+    
+ 
+
+}
+ul{
+
+    padding-right: 15%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+   
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+
+   
+  margin-left: 3%;
+   
+    
+}
+
+.background{
+
+    background-image: url("controller.jpg");
+    background-size: cover;
+    position: center;
+    height: 100%;
+    width: 100%;
+
+
+}
+
+.overlay{
+
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3)
+}
+
+.details {
+    
+    
+    color: White;
+    position: relative;
+    top: 35%;
+    Left: 32%;
+    transform : translate (0,0);
+}
+
+
+.details h1{
+
+    margin-left: -5%;
+    font-size: 35px;
+}
+.details h4{
+
+    margin-left: -2%;
+    line-height: 250%;
+
+   font-size: 20px;
+}
+
+.details p{ 
+
+    margin-left: 12%;
+    line-height: 150%;
+    font-weight: 700;
+    
+    font-size: 18px;
+  
+}
+
+.hi button{
+    height: 40px;
+    width: 140px;
+    letter-spacing: 0.5px;
+    position: absolute;
+    top: 65%;
+    left: 47%;
+    border-radius: 15px;
+    border: 1px solid black;
+  transition: all 0.2s ease-in-out;
+    font-size: 15px;
+   cursor: pointer;
+    margin-top: 2%;
+    font-weight: 300;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+.details h1:hover{
+    background: -webkit-linear-gradient(#12c2e9,#c471ed,#f64f59);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 1s ease-in-out;
+}
+
+a:hover{
+
+    cursor: pointer;
+    color: rgb(255,196,0);
+   
+
+}
+
+.home:hover{
+
+    border: none;
+    cursor: none;
+}

@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,body{
+
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+
+font-size: 42px;
+position: absolute;
+top:20%;
+left: 25%;
+transform: translate(0,0);
+letter-spacing: 2px;
+text-transform: uppercase;
+color:black;
+font-family: 'Indie Flower', cursive;
+font-weight:600;
+
+
+}
+
+img{
+
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+.para{
+
+    position: Absolute;
+    top: 100%;
+    left: 10%;
+    transform: translate(0,0);
+    font-weight: 400;
+    color: black;
+}
